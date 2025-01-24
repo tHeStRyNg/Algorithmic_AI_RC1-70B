@@ -1,10 +1,31 @@
 #### Model can be downloaded here
 Algorithmic_AI_RC1_70B is a Reasoning Coder to Link to Cline on VsCode with Pre-Instructions
 
+## Model Definitions 
+
+Algorithmic - www.algorithmic.one
+AI - Artificial Intelligence
+RC1 - Reasoning Coder version 1
+70B - 70 Billion Instructions
+Model Size - 42GB
+
+## Bare Metal Server Definitions
+GPU Requirements - GPU 1 x NVIDIA GH200 - 96 GB VRAM
+OS version used - Ubuntu 22.04 LTS x64
+CPU Cores - 72 Cores - 72 Threads - Grace Neoverse V2
+RAM: 491520 MB
+Storage: 1x 960GB NVMe, 1x 3.84TB NVMe
+
 
 - https://ollama.com/stryng/Algorithmic_AI_RC1_70B
 
-use following system prompt
+- install ollama
+- ollama pull stryng/Algorithmic_AI_RC1_70B
+- check your private ip and reconfigure the api
+- use it on Cline locally
+
+
+Use following system prompt on Cline in VsCode
 
 ```
 Algo_A1's Memory Bank
